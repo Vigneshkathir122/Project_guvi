@@ -1,0 +1,121 @@
+body{
+    background-color: #189AB4;
+    
+}
+.form{
+
+    background-color: #75E6DA;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+form{
+    background-color:#D4F1F4;
+    padding: 10px 10px;
+    margin: 50px;
+    border-radius: 4px;
+
+}
+input[type = "text"]{
+    border: 1px solid;
+    width: 100%;
+    margin: 5px 0px;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+input[type = "password"]{
+    border: 1px solid;
+    width: 100%;
+    margin: 5px 0px;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+input[type="submit"]:hover{
+    background-color: rgb(46, 158, 121);
+    
+}
+input[type = "submit"]{
+    border-radius: 4px;
+    width: 30%;
+    cursor: pointer;
+    border: none;
+    padding: 3px;
+    margin: 15px auto;
+    font-size: 16px;
+    
+    
+}
+form h1{
+    text-align: center;
+}
+.header{
+       
+    background-color: blue;
+}
+
+.content{
+   
+    background-color: blueviolet;
+}
+.menu{
+    
+    background-color: darkcyan;
+}
+.side_bar{
+    background-color: deeppink;
+}
+.footer{
+    background-color: brown;
+    
+}
+.index_body{
+    background-color: lightgray;
+    display: flex;
+}
+div h3{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: 40px;
+}
+input[type = "email"]{
+    border: 1px solid;
+    width: 100%;
+    margin: 5px 0px;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+input[type = "date"]{
+    border: 1px solid;
+    width: 100%;
+    margin: 5px 0px;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+input[type = "telephone"]{
+    border: 1px solid;
+    width: 100%;
+    margin: 5px 0px;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+a{
+    text-decoration: none;
+}
+input[type="radio"]{
+    transform: scale(1.25);
+    accent-color: rgb(2, 97, 81);
+}
+@media screen and (min-width: 769px) {
+    form{
+        background-color:#D4F1F4;
+        padding: 10px 10px;
+        margin: 250px;
+        border-radius: 4px;
+    
+    }
+    
+}
+
+
